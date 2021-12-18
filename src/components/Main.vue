@@ -33,7 +33,6 @@ defineProps({
             <p className="py-8 cursor-pointer transition duration-400 ease-in-out transform hover:scale-110 hover:font-bold" @click="$router.push('/blogs')">Blogs</p>
           </div>
         </div>
-        <p>check</p>
       </div>
 
       <div className="hidden md:flex md:w-2/7 h-full text-gray-50 " >
