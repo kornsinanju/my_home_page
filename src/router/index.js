@@ -1,32 +1,35 @@
 import { createWebHistory, createRouter } from "vue-router";
-import Home from "../components/Main.vue";
-import About from "../components/Projects.vue";
+import Intro from "../components/Intro.vue";
+import Blogs from "../components/Blogs.vue";
+import Projects from "../components/Projects.vue";
+import Post from "../components/Post.vue";
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home,
-    props: { count:0}
+    component: Intro,
   },
   {
     path: "/home",
     name: "Intro",
-    component: Home,
-    props: { count:0}
+    component: Intro,
   },
   {
     path: "/projects",
     name: "Projects",
-    component: Home,
-    props: { count:1}
+    component: Projects,
   },
   {
     path: "/blogs",
     name: "Blogs",
-    component: Home,
-    props: { count:2}
+    component: Blogs,
   },
+  {
+    path: '/blogs/:id',
+    name: 'Posts',
+    component: Post
+  }
 ];
 
 const router = createRouter({

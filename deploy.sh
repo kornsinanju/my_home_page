@@ -14,11 +14,13 @@ ls
 # echo 'www.example.com' > CNAME
 echo "# kornsinanju.github.io" >> README.md
 git init
-git add -A
+git add *
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:kornsinanju/kornsinanju.github.io.git main
-git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git maingit push -u origin main
+# git pull
+git push https://github.com/kornsinanju/kornsinanju.github.io main -f
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
+

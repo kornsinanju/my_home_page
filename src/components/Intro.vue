@@ -1,5 +1,6 @@
 <template>
-    <div className="w-full flex flex-col items-start">
+  <div className="w-full flex flex-col justify-start items-center bg-gray-50 z-20">
+       <div className="w-full flex flex-col items-start">
         <h2 className=" font-bold text-4xl px-5 md:px-44 pt-12 font-mono">About me</h2>
         <p className="text-gray-500 text-base px-5 md:px-44 pt-3 font-mono pb-5">Last Update : 16 Dec 2021</p>
     </div>
@@ -165,6 +166,8 @@
       <p>Oil Paintings</p> 
       <p>Social Development</p> 
     </div>
+  </div>
+ 
 </template>
 
 <script>
