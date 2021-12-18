@@ -45,20 +45,6 @@
             <div className="pt-10">
                 <iframe style="width:100%;height:100%;" src="https://www.youtube.com/embed/H0wEopkBiW8" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-
-            <!-- <div class="wave">
-                <svg
-                data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1200 120"
-                preserveAspectRatio="none"
-                >
-                <path
-                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                    class="shape-fill"
-                ></path>
-                </svg>
-            </div> -->
             </section>
             <div class="spacer layer1"></div>
             <div className="w-full " id="grayon">
@@ -85,15 +71,12 @@
             </div>
             <div class="spacer layer2 flip -my-0.5 -mt-5 z-0"></div>
             <section class="pink w-full">
-            <!-- <div class="blob-content"> -->
                 <div className="absolute pt-28 w-full flex flex-col items-center justify-center">
                     <h2 className="text-4xl font-bold pb-5 cursor-pointer" @click="gotoContact('https://github.com/kornsinanju/clone_agario')">Agar IO Clone</h2>
                     <p className="text-xl font-sans px-10 2xl:text-3xl xl:text-2xl">
                     Creating Agar.io clone using Vue.JS, Canvas and Flask :) 
                     </p>
                 </div>
-                
-            <!-- </div> -->
             <svg
                 id="visual"
                 viewBox="0 0 960 300"
@@ -122,37 +105,12 @@
                 </g>
             </svg>
             </section>
-            <!-- <section>
-            <h2>Nice Curves</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
-                corporis rerum quos corrupti quidem sit nostrum? Quo quas, sit, ipsam
-                sapiente alias eaque eos natus nulla, tempore assumenda veritatis
-                exercitationem?
-            </p>
-            </section>
-            <section class="blue">
-            <h2>Nice Curves</h2>
-            <p>
-                Alias odio ipsa fuga ab similique aspernatur saepe laudantium autem
-                veniam odit est consequuntur repudiandae porro vel et quibusdam
-                explicabo, ducimus sunt eveniet commodi quod! Possimus vel neque
-                molestias. Maiores?
-            </p>
-            </section> -->
         </div>
     </div>
     
 </template>
 
 <script>
-// let recaptchaScript = document.createElement("script");
-// recaptchaScript.setAttribute(
-//     "src",
-//     "https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"
-// );
-// document.head.appendChild(recaptchaScript);
-
 export default {
     
   mounted() {
@@ -166,8 +124,6 @@ export default {
   },
   methods:{
     gotoContact(e) {
-    //   console.log("hola")
-      // let route = this.$router.resolve({ path: "/contact" });
       window.open(e);
     },
   }

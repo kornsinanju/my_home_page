@@ -8,15 +8,7 @@ import Main from './components/Main.vue'
 </script>
 
 <template>
-  <!-- <Header/> -->
-  <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/projects">Projects</router-link>
-      <router-link to="/blogs">Blogs</router-link>
-  </div>
-  <router-view /> -->
   <Main/>
-  <!-- <Footer/> -->
 </template>
 
 <style scoped>

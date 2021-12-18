@@ -18,9 +18,9 @@ git add *
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:kornsinanju/kornsinanju.github.io.git main
+git push -f git@github.com:kornsinanju/kornsinanju.github.io.git main
 # git pull
-git push https://github.com/kornsinanju/kornsinanju.github.io main -f
+# git push https://github.com/kornsinanju/kornsinanju.github.io main -f
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
 

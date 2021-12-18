@@ -21,13 +21,7 @@
         <div className="w-full bg-gray-200" v-else>
             <img src="/src/assets/spinner2.gif" alt="" className="mx-auto">
         </div>
-        <!-- <section className="bg-gray-900">
-                <h2 className="3xl:text-5xl text-4xl font-bold pb-5 cursor-pointer text-gray-50" >Contact Me</h2>
-                <p className="font-sans hover:bg-gray-800 hover:bg-opacity-40 2xl:text-3xl xl:text-2xl text-gray-50"> 
-                    A winning robot project for International Design Contest Robocon 2021 among all 83 representative students from university all over the world!
-                    <br> Using C# and Inventor to create.
-                </p>
-        </section> -->
+
 
     </div>
     <!-- <div className="fixed top-0 h-full bg-robot2 bg-right-top z-0 bg-cover bg-no-repeat w-full"></div> -->
@@ -35,24 +29,9 @@
 </template>
 
 <script>
-// let recaptchaScript = document.createElement("script");
-// recaptchaScript.setAttribute(
-//     "src",
-//     "https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"
-// );
-// document.head.appendChild(recaptchaScript);
-import { useLoadUsers,getMyPost } from '../firebase'
+import { getMyPost } from '../firebase'
 
 export default {
-//   mounted() {
-//     const tween = KUTE.fromTo(
-//           '#blob1',
-//           {path:'#blob1'},
-//           {path:'#blob2'},
-//           {repeat:999,duration:3000,yoyo:true}
-//         )
-//       tween.start()
-//   }
     data() {
         return {
         loading : true,
@@ -70,10 +49,6 @@ export default {
         }
     },
     created() {
-        // etUserById('wakanda').the(
-        //     users=>console.log(users)
-        // )
-        // const users = useLoadUsers()
         getMyPost().then(
             posts => {
                 console.log(posts)
@@ -82,10 +57,6 @@ export default {
                 return this.post
             }
         )
-        // const posts = useLoadUsers()
-        // return {posts}
-        // return { users }
-        // console.log(users)
     }
 };
 </script>
