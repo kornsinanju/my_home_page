@@ -64,13 +64,6 @@ export default {
                 }
             )
     })
-    // const update = async () => {
-    //   await updateUser(userId.value, { ...form })
-    //   router.push('/')
-    //   form.name = ''
-    //   form.email = ''
-    // }
-    // return { form, update }
   }
 }
 </script>

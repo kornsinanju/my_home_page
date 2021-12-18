@@ -1,5 +1,4 @@
 <script setup>
-import Content from './Content.vue'
 import { ref } from 'vue'
 
 defineProps({
@@ -92,9 +91,6 @@ export default {
       count : 0,
       toggle : false
     }
-  },
-  components:{
-    Content
   },
   methods: {
     toggleFunc() {

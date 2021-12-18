@@ -20,7 +20,7 @@ if(!firebase.apps.length){
   }
 // const firebaseApp = initializeApp(firebaseConfig);
 export const firestore = firebase.firestore();
-export const storage = firebase.storage();
+
 const usersCollection = firestore.collection('users');
 const postCollection = usersCollection.doc('YB9ePSwGJ0MrccRxcSuymOOYDM92').collection('posts');
 
