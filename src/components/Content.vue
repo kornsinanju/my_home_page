@@ -1,7 +1,7 @@
 <template>
   <!-- <Toggle :mode="mode" @toggle="$emit('toggle')"/> -->
   <!-- <div></div> -->
-  <div v-if="count == 0" className="flex flex-col justify-start items-center bg-gray-50"> <Intro/> </div>
+  <div v-if="count == 0" className="w-full flex flex-col justify-start items-center bg-gray-50"> <Intro/> </div>
   <div v-else-if="count == 1">  <Projects/> </div>
   <div v-else className="flex flex-col justify-start items-center bg-gray-50"> <Blogs/> </div>
 </template>

@@ -71,7 +71,7 @@
                 </div>
                 <div className="w-full xl:w-1/2 md:px-20 px-1 flex flex-col items-center justify-center">
                     <div class="pb-5 flex flex-row">
-                        <h2 className="3xl:text-5xl text-4xl font-bold ">Redit Clone</h2>
+                        <h2 className="3xl:text-5xl text-4xl font-bold cursor-pointer" @click="gotoContact('https://github.com/kornsinanju/my_blog_nextjs')">Redit Clone</h2>
                         <!-- <img src="../assets/cards.png" alt="ReviewRight Logo" className="w-10 h-10"> -->
                         <!-- <img src="../assets/favicon.ico" alt="" className="w-10 h-10"> -->
                     </div>
@@ -85,7 +85,7 @@
         <div class="spacer layer2 flip -my-0.5 -mt-5 z-0"></div>
         <section class="pink w-full">
         <!-- <div class="blob-content"> -->
-            <div className="absolute pt-28 w-full">
+            <div className="absolute pt-28 w-full flex flex-col items-center justify-center">
                 <h2 className="text-4xl font-bold pb-5 cursor-pointer" @click="gotoContact('https://github.com/kornsinanju/clone_agario')">Agar IO Clone</h2>
                 <p className="text-xl font-sans px-10 2xl:text-3xl xl:text-2xl">
                 Creating Agar.io clone using Vue.JS, Canvas and Flask :) 
@@ -151,6 +151,7 @@
 // document.head.appendChild(recaptchaScript);
 
 export default {
+    
   mounted() {
     const tween = KUTE.fromTo(
           '#blob1',
@@ -159,6 +160,13 @@ export default {
           {repeat:999,duration:3000,yoyo:true}
         )
       tween.start()
+  },
+  methods:{
+    gotoContact(e) {
+    //   console.log("hola")
+      // let route = this.$router.resolve({ path: "/contact" });
+      window.open(e);
+    },
   }
 };
 </script>

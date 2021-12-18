@@ -49,7 +49,7 @@
     </div>
     <div className="flex flex-row pt-10 w-full h-auto justify-around bg-yellow-50 px-10 -mb-1 z-30">
           <div className="flex flex-col w-2/5 items-center">
-            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg px-10 py-10 justify-start" data-aos="flip-right">
+            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start" data-aos="flip-right">
               <div className="flex flex-rol justify-start items-center pr-5">
                 <h2 className="font-bold text-base md:text-lg lg:text-2xl inline pr-1">Tokyo Institute of Technology </h2>
                 <img src="../assets/titech.png" alt="bachelor" className="inline w-10 h-10">
@@ -64,7 +64,7 @@
                 </ul> 
               </div>
             </div>
-            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg px-10 py-10 justify-start mt-40" data-aos="flip-right">
+            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start mt-40" data-aos="flip-right">
               <div className="flex flex-rol justify-start items-center ">
                 <h2 className="font-bold text-base md:text-lg lg:text-2xl inline pr-1">Thai Students' Association in Japan Under Royal Patronage</h2>
                 <img src="../assets/thai2.gif" alt="bachelor" className="inline w-10 h-10 mr-5">
@@ -83,21 +83,21 @@
           <div className="h-auto w-5 mx-7">
 
           </div>
-          <div className="h-96 w-3 md:w-5 mb-20 mt-48 absolute bg-gray-800 ">
+          <div className="h-96 w-3 md:w-5 mb-20 mt-48 absolute bg-gray-800  z-30">
             <!-- <div className=""></div> -->
-            <div className="h-96 w-3 md:w-5 mb-20 mt-60 absolute bg-gray-800 ">
+            <div className="h-96 w-3 md:w-5 mb-20 mt-60 absolute bg-gray-800  z-30">
             <!-- <div className=""></div> -->
-              <div className="h-96 w-3 md:w-5 mb-20 mt-56 absolute bg-gray-800 ">
+              <div className="h-96 w-3 md:w-5 mb-20 mt-56 absolute bg-gray-800  z-30">
                 <!-- <div className="h-12 w-3 md:w-5 mb-20 mt-48 absolute bg-gray-800 "> -->
                 <!-- </div> -->
               </div>
             </div>
           </div>
           
-          <div className="w-10 h-10 md:w-16 md:h-16 bg-gray-800 absolute mt-44 rounded-full ">
-            <div className="w-10 h-10 md:w-16 md:h-16 bg-gray-800 absolute mt-52 rounded-full ">
-              <div className="w-10 h-10 md:w-16 md:h-16 bg-gray-800 absolute mt-96 rounded-full ">
-                <div className="w-10 h-10 md:w-16 md:h-16 bg-gray-800 absolute mt-60 rounded-full "></div>
+          <div className="w-10 h-10 md:w-16 md:h-16 bg-gray-800 absolute mt-44 rounded-full z-30">
+            <div className="w-10 h-10 md:w-16 md:h-16 bg-gray-800 absolute mt-52 rounded-full  z-30">
+              <div className="w-10 h-10 md:w-16 md:h-16 bg-gray-800 absolute mt-96 rounded-full  z-30">
+                <div className="w-10 h-10 md:w-16 md:h-16 bg-gray-800 absolute mt-60 rounded-full  z-30"></div>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@
           </div> -->
           
           <div className="flex flex-col w-2/5 items-center">
-            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg px-10 py-10 justify-start mt-64"  data-aos="flip-left">
+            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start mt-64" data-aos="flip-left">
               <div className="flex flex-rol justify-center items-center">
                 <h2 className="font-bold text-base md:text-lg lg:text-2xl inline pr-1">Robotic Club</h2>
                 <img src="../assets/robot_club.gif" alt="bachelor" className="inline w-10 h-10">
@@ -122,7 +122,7 @@
                 </ul> 
               </div>
             </div>
-            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg px-10 py-10 justify-start mt-64" data-aos="flip-left">
+            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start mt-64" data-aos="flip-left">
               <div className="flex flex-rol justify-start items-center">
                 <h2 className="font-bold text-base md:text-lg lg:text-2xl inline pr-1">HG Robotics</h2>
                 <img src="../assets/gundam.gif" alt="bachelor" className="inline w-10 h-10">
