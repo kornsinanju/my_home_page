@@ -69,15 +69,12 @@
             </div>
             <div class="spacer layer2 flip -my-0.5 -mt-5 z-0"></div>
             <section class="pink w-full">
-            <!-- <div class="blob-content"> -->
                 <div className="absolute pt-28 w-full flex flex-col items-center justify-center">
                     <h2 className="text-4xl font-bold pb-5 cursor-pointer" @click="gotoContact('https://github.com/kornsinanju/clone_agario')">Agar IO Clone</h2>
                     <p className="text-xl font-sans px-10 2xl:text-3xl xl:text-2xl">
                     Creating Agar.io clone using Vue.JS, Canvas and Flask :) 
                     </p>
                 </div>
-                
-            <!-- </div> -->
             <svg
                 id="visual"
                 viewBox="0 0 960 300"
@@ -106,14 +103,12 @@
                 </g>
             </svg>
             </section>
-
         </div>
     </div>
     
 </template>
 
 <script>
-
 export default {
     
   mounted() {
