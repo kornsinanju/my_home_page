@@ -109,6 +109,9 @@ export default {
       if(this.$route.path=='/projects'){
         this.mode = 'dark'
       }
+    },
+    gotoContact(link){
+      window.open(link,"_blank");
     }
   },
   watch: {

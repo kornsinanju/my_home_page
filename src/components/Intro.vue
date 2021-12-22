@@ -31,16 +31,16 @@
     <div className="text-gray-50 bg-gray-800 flex flex-row justify-start w-full -mt-1">
         <h2 className="font-bold text-3xl px-5 md:px-20 lg:px-44 pt-12 font-mono">Skills</h2>
     </div>
-    <div className="text-gray-50 bg-gray-800 grid grid-flow-col grid-cols-2 md:grid-cols-3 grid-rows-5 md:grid-rows-3 gap-4 w-full pt-10 font-semibold text-xl font-mono md:place-items-start px-10 -mb-1 -mt-1">
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">💻 Full-stack Web</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">📖 SQL</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">🕸️ React, NextJS, VueJS</div>
+    <div className="text-gray-50 bg-gray-800 grid grid-flow-col grid-cols-2 md:grid-cols-3 grid-rows-5 md:grid-rows-3 gap-4 w-full pt-10 font-semibold text-xl font-mono place-items-start px-10 -mb-1 -mt-1">
+        <div className="py-5 md:pl-5" data-aos="fade-up">💻 Full-stack Web</div>
+        <div className="py-5 md:pl-5" data-aos="fade-up">📖 SQL</div>
+        <div className="py-5 md:pl-5" data-aos="fade-up">🌐 React,NextJS,Vue</div>
         <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">🤖 Mechnical Design</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">🎹 Python, C++, JS</div>
+        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">👾 Python, C++, JS</div>
         <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">👀 Computer Vision</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">👓 Data Visualization</div>
+        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">📊 Data Visualization</div>
         <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">🧠 Machine Learning</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">👨‍🎨 Data Analysis</div>
+        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">🔎 Data Analysis</div>
     </div>
     <div class="spacer2 layer4 pb-0.5"></div>
     <div className="flex flex-row justify-start w-full pb-16 bg-yellow-50">
@@ -59,9 +59,10 @@
               <div className="flex flex-col font-mono text-sm md:text-sm lg:text-sm xl:text-base 2xl:text-lg justify-start items-start pt-5">
                 <p className="text-left italic">Bachalor : System and Control Eng. (Class of 2022)</p>
                 <ul className="list-disc text-left pt-5">
-                  <li className="pb-2">GPA : 3.72/4.0 </li>
+                  <li className="pb-2">GPA : 3.76/4.5 (93/100) </li>
                   <!-- <li className="pb-2">University's Leadership Award</li> -->
-                  <li className="hidden md:list-item">Hatanaka Lab : Developed ice hockey defensive strategy generating algorithm with captain of Japanese olympic ice hockey team</li>
+                  <li className="hidden md:list-item cursor-pointer hover:underline" @click="gotoContact('https://arxiv.org/abs/2111.10804')">Hatanaka Lab : Distributed Control Algorithm Research</li>
+                  <!-- <li className="hidden md:list-item">Worded captain of Japanese olympic ice hockey team</li> -->
                 </ul> 
               </div>
             </div>
@@ -118,7 +119,7 @@
                 <p className="text-left pt-5 italic">Software Eng. 05/2019 - 12/2020</p>
                 <ul className="list-disc text-left pt-5">
                   <li className="pb-2">Program robot, Control theory</li>
-                  <li className="">Developed real-time data visualization as testing SW tool </li>
+                  <li className="">Developed real-time data visualization as testing tool </li>
                   <!-- <li className="">Hatanaka Lab : Developed the world first ice hockey defensive strategy generating algorithm using Coverage Control and Control Barrier algorithm with a Japanese Olympic Ice Hockey player</li> -->
                 </ul> 
               </div>
