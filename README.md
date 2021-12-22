@@ -1,4 +1,4 @@
-# My homoe page source code
+# My home page source code
 This is repo for the source code of my personal homepage using VueJS, TailwindCSS, and Firebase. Please feel free to use it! Don't forget to add credit!!
 
 ## getting start
