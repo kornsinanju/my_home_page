@@ -9,7 +9,6 @@ npm run build
 # navigate into the build output directory
 cd dist
 
-ls
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 echo "# kornsinanju.github.io" >> README.md
@@ -22,7 +21,6 @@ git commit -m 'deploy'
 # git push -u origin main
 
 # if you are deploying to https://<USERNAME>.github.io (second time and so-on)
-# cd dist 
 # git push
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
