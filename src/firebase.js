@@ -31,7 +31,7 @@ const db = getFirestore(app);
 export async function getMyPost(){
     // const user = await usersCollection.doc('YB9ePSwGJ0MrccRxcSuymOOYDM92').collection('posts').doc('my-first-post').get();
     // return user.exists ? user.data() : 'no data';'
-    const q = query(collection(db,'users','YB9ePSwGJ0MrccRxcSuymOOYDM92','posts'),orderBy('createdAt', 'desc'))
+    const q = query(collection(db,'users','YB9ePSwGJ0MrccRxcSuymOOYDM92','posts'),orderBy('createdAt', 'desc'),where("published","==",true))
     const snapshot = await getDocs(q); 
     return snapshot.docs.map(doc => doc.data());
 }
@@ -39,7 +39,7 @@ export async function getMyPost(){
 export async function getPostByName(name){
     // const user = await usersCollection.doc('YB9ePSwGJ0MrccRxcSuymOOYDM92').collection('posts').doc('my-first-post').get();
     // return user.exists ? user.data() : 'no data';'
-    const q = query(collection(db,'users','YB9ePSwGJ0MrccRxcSuymOOYDM92','posts'),where("title","==",name))
+    const q = query(collection(db,'users','YB9ePSwGJ0MrccRxcSuymOOYDM92','posts'),where("title","==",name),where("published","==",true))
     // const snapshot = await collection(db,'users','YB9ePSwGJ0MrccRxcSuymOOYDM92','posts').where("title","==",name).get();
     const snapshot = await getDocs(q);
     return snapshot.docs.map(doc => doc.data());

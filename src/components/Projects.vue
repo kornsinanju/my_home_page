@@ -27,7 +27,7 @@
                 
                 
             </div>
-            <section className="bg-fixed bg-no-repeat bg-cover" style="background-image: url('/src/assets/robot4.jpg')">
+            <section className="bg-fixed bg-no-repeat bg-cover bg-robot">
                 <h2 className="3xl:text-5xl text-4xl font-bold pb-5 cursor-pointer" @click="gotoContact('https://github.com/kornsinanju/IDC_2021_G3')">Flying Toilet 🤖</h2>
                 <p className="font-sans hover:bg-gray-800 hover:bg-opacity-40 2xl:text-3xl xl:text-2xl"> 
                     A winning robot project for International Design Contest Robocon 2021 among all 83 representative students from university all over the world!

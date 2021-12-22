@@ -1,4 +1,9 @@
 import { createWebHistory, createRouter } from "vue-router";
+// import Intro from "../components/Intro.vue";
+// import Blogs from "../components/Blogs.vue";
+// import Projects from "../components/Projects.vue";
+// import Post from "../components/Post.vue";
+
 const Intro = () => import("../components/Intro.vue");
 const Blogs = () => import("../components/Blogs.vue");
 const Projects = () => import("../components/Projects.vue");

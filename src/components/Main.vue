@@ -14,7 +14,7 @@ defineProps({
   <div id="app">
     <div className="flex flex-row h-screen z-10">
       <div className="fixed right-2 top-8 w-20 h-20 md:hidden z-50 px-auto">
-        <img src="https://img.icons8.com/material-rounded/48/ffffff/menu--v1.png" className="cursor-pointer transition duration-400 ease-in-out transform hover:scale-110" @click="toggleFunc" v-if="this.mode=='dark'"/>
+        <img src="https://img.icons8.com/material-rounded/48/ffffff/menu--v1.png" className="cursor-pointer transition duration-400 ease-in-out transform hover:scale-110" @click="toggleFunc" v-if="mode=='dark'"/>
         <img src="https://img.icons8.com/material-rounded/48/000000/menu--v1.png" className="cursor-pointer transition duration-400 ease-in-out transform hover:scale-110" @click="toggleFunc" v-else/>
 
       </div>
@@ -33,7 +33,6 @@ defineProps({
             <p className="py-8 cursor-pointer transition duration-400 ease-in-out transform hover:scale-110 hover:font-bold" @click="$router.push('/blogs')">Blogs</p>
           </div>
         </div>
-        <p>check</p>
       </div>
 
       <div className="hidden md:flex md:w-2/7 h-full text-gray-50 " >
@@ -69,7 +68,7 @@ defineProps({
           <!-- <img alt="Vue logo" src="../assets/logo.png" class="mx-auto"/> -->
           <!-- <HelloWorld msg="Hello Vue 3 + Vite" /> -->
       </div>
-      <div :class="(mode=='light') ? 'bg-gray-50 w-full md:w-5/7 z-20' : 'bg-gray-800 w-full md:w-5/7 z-20'" @click="offFunc">
+      <div className="bg-gray-50 w-full md:w-5/7 z-20" @click="offFunc">
           <router-view />
       </div>
     </div>
@@ -110,6 +109,9 @@ export default {
       if(this.$route.path=='/projects'){
         this.mode = 'dark'
       }
+    },
+    gotoContact(link){
+      window.open(link,"_blank");
     }
   },
   watch: {

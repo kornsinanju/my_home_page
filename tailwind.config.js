@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'forest': "url('/src/assets/forest.jpeg')",
-        'robot' : "url('/src/assets/robot1.png')",
+        'robot' : "url('/src/assets/robot4.jpg')",
         'robot2' : "url('/src/assets/robot2.jpg')"
       },
       width: {

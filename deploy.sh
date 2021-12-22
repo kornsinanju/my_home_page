@@ -16,11 +16,15 @@ echo "# kornsinanju.github.io" >> README.md
 git init
 git add *
 git commit -m 'deploy'
+# for first push
+# git branch -M main
+# git remote add origin https://github.com/kornsinanju/kornsinanju.github.io.git
+# git push -u origin main
 
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:kornsinanju/kornsinanju.github.io.git main
-git pull
-git push https://github.com/kornsinanju/kornsinanju.github.io main -f
+# if you are deploying to https://<USERNAME>.github.io (second time and so-on)
+# cd dist 
+# git push
+
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
 
