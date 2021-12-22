@@ -61,7 +61,7 @@
                             <h2 className="3xl:text-5xl text-4xl font-bold cursor-pointer" @click="gotoContact('https://github.com/kornsinanju/my_blog_nextjs')">Redit Clone</h2>
                         </div>
                         
-                        <p className="text-base font-sans 2xl:text-2xl xl:text-xl">
+                        <p className="text-xl font-sans 2xl:text-3xl xl:text-2xl">
                             A personal project to create a Redit clone blog using server-side rendering from nextjs and firebase as its database.
                         </p>
                     </div>
@@ -72,7 +72,7 @@
                 <div className="absolute pt-28 w-full flex flex-col items-center justify-center">
                     <h2 className="text-4xl font-bold pb-5 cursor-pointer" @click="gotoContact('https://github.com/kornsinanju/clone_agario')">Agar IO Clone</h2>
                     <p className="text-xl font-sans px-10 2xl:text-3xl xl:text-2xl">
-                    Creating Agar.io clone using Vue.JS, Canvas and Flask :) 
+                    Agar.io clone project to practice real-time communication by applying websocket using Vue.JS, CanvasJS, MongoDB, and Flask :) 
                     </p>
                 </div>
             <svg

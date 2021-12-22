@@ -49,7 +49,7 @@ defineProps({
               <!-- <p>A stunning personal blog of Kornvik Tanpiat (Korn)</p> -->
               <p className="2xl:text-3xl xl:text-2xl lg:text-xl md:text-base text-sm pl-0 pb-3">Welcome to my blog!</p>
           </div>
-          <div className="py-5 flex items-start flex-col xl:text-2xl lg:text-lg md:text-md text-base">
+          <div className="py-5 flex items-start flex-col xl:text-2xl lg:text-xl md:text-lg text-md">
               <!-- <p className="py-1 cursor-pointer" @click="count=0">About me</p>
               <p className="py-1 cursor-pointer" @click="count=1">Projects</p>
               <p className="py-1 cursor-pointer" @click="count=2">Blogs</p> -->

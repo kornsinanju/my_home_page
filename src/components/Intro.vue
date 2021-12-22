@@ -29,50 +29,50 @@
     </div>
     <div class="spacer2 layer3 pb-0"></div>
     <div className="text-gray-50 bg-gray-800 flex flex-row justify-start w-full -mt-1">
-        <h2 className="font-bold text-3xl px-5 md:px-20 lg:px-44 pt-12 font-mono">Skills</h2>
+        <h2 className="font-bold text-3xl lg:text-4xl 2xl:text-6xl px-5 md:px-20 lg:px-44 pt-12 font-mono">Skills</h2>
     </div>
-    <div className="text-gray-50 bg-gray-800 grid grid-flow-col grid-cols-2 md:grid-cols-3 grid-rows-5 md:grid-rows-3 gap-4 w-full pt-10 font-semibold text-xl font-mono place-items-start px-10 -mb-1 -mt-1">
+    <div className="text-gray-50 bg-gray-800 grid grid-flow-col grid-cols-2 md:grid-cols-3 grid-rows-5 md:grid-rows-3 gap-4 w-full pt-10 font-semibold text-xl 2xl:text-3xl xl:text-2xl font-mono place-items-start px-10 -mb-1 -mt-1">
         <div className="py-5 md:pl-5" data-aos="fade-up">💻 Full-stack Web</div>
         <div className="py-5 md:pl-5" data-aos="fade-up">📖 SQL</div>
-        <div className="py-5 md:pl-5" data-aos="fade-up">🌐 React,NextJS,Vue</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">🤖 Mechnical Design</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">👾 Python, C++, JS</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">👀 Computer Vision</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">📊 Data Visualization</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">🧠 Machine Learning</div>
-        <div className="py-5 md:pl-5 cursor-pointer" data-aos="fade-up">🔎 Data Analysis</div>
+        <div className="py-5 md:pl-5" data-aos="fade-up">🌐 React, VueJS</div>
+        <div className="py-5 md:pl-5" data-aos="fade-up">🤖 Mechnical Design</div>
+        <div className="py-5 md:pl-5" data-aos="fade-up">👾 Python, C++, JS</div>
+        <div className="py-5 md:pl-5" data-aos="fade-up">👀 Computer Vision</div>
+        <div className="py-5 md:pl-5" data-aos="fade-up">📊 Data Viz</div>
+        <div className="py-5 md:pl-5" data-aos="fade-up">🧠 Machine Learning</div>
+        <div className="py-5 md:pl-5" data-aos="fade-up">🔎 Data Analysis</div>
     </div>
     <div class="spacer2 layer4 pb-0.5"></div>
     <div className="flex flex-row justify-start w-full pb-16 bg-yellow-50">
         
-        <h2 className="font-bold text-3xl px-5 md:px-44 pt-12 font-mono">Journey</h2>
+        <h2 className="font-bold text-3xl lg:text-4xl 2xl:text-6xl px-5 md:px-44 pt-12 font-mono">Journey</h2>
         
     </div>
     <div className="flex flex-row pt-10 w-full h-auto justify-around bg-yellow-50 px-10 -mb-1 z-30">
           <div className="flex flex-col w-2/5 items-center">
-            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start" data-aos="flip-right">
+            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 lg:w-5/6 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start" data-aos="flip-right">
               <div className="flex flex-rol justify-start items-center pr-5">
-                <h2 className="font-bold text-base md:text-lg lg:text-2xl inline pr-1">Tokyo Institute of Technology </h2>
-                <img src="../assets/titech.png" alt="bachelor" className="inline w-10 h-10">
+                <h2 className="font-bold text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-4xl inline pr-1">Tokyo Institute of Technology </h2>
+                <img src="../assets/titech.png" alt="bachelor" className="inline w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 xl:w-20 xl:h-20 2xl:w-24 2xl:h-24">
               </div>
               <!-- <div className="flex"></div> -->
-              <div className="flex flex-col font-mono text-sm md:text-sm lg:text-sm xl:text-base 2xl:text-lg justify-start items-start pt-5">
+              <div className="flex flex-col font-mono text-sm md:text-base lg:text-lg xl:text-2xl 2xl:text-3xl justify-start items-start pt-5">
                 <p className="text-left italic">Bachalor : System and Control Eng. (Class of 2022)</p>
                 <ul className="list-disc text-left pt-5">
                   <li className="pb-2">GPA : 3.76/4.5 (93/100) </li>
                   <!-- <li className="pb-2">University's Leadership Award</li> -->
                   <li className="hidden md:list-item cursor-pointer hover:underline" @click="gotoContact('https://arxiv.org/abs/2111.10804')">Hatanaka Lab : Distributed Control Algorithm Research</li>
-                  <!-- <li className="hidden md:list-item">Worded captain of Japanese olympic ice hockey team</li> -->
+                  <li className="md:hidden" @click="gotoContact('https://arxiv.org/abs/2111.10804')">Research on Distributed Control Algorithm</li>
                 </ul> 
               </div>
             </div>
-            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start mt-40" data-aos="flip-right">
+            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 lg:w-5/6 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start mt-40" data-aos="flip-right">
               <div className="flex flex-rol justify-start items-center ">
-                <h2 className="font-bold text-base md:text-lg lg:text-2xl inline pr-1">Thai Students' Association in Japan Under Royal Patronage</h2>
-                <img src="../assets/thai2.gif" alt="bachelor" className="inline w-10 h-10 mr-5">
+                <h2 className="font-bold text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-4xl inline pr-1">Thai Students' Association in Japan</h2>
+                <img src="../assets/thai2.gif" alt="bachelor" className="inline w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20 2xl:w-24 2xl:h-24 mr-5">
               </div>
               <!-- <div className="flex"></div> -->
-              <div className="flex flex-col font-mono text-sm md:text-sm lg:text-sm xl:text-base 2xl:text-lg justify-start items-start ">
+              <div className="flex flex-col font-mono text-sm md:text-base lg:text-lg xl:text-2xl 2xl:text-3xl justify-start items-start ">
                 <p className="text-left pt-5 italic">Head of Project Evaluation and Quality Control <br> 04/2020 - 03/2021</p>
                 <ul className="list-disc text-left pt-5">
                   <li className="pb-2">Management</li>
@@ -108,14 +108,14 @@
           </div> -->
           
           <div className="flex flex-col w-2/5 items-center">
-            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start mt-64" data-aos="flip-left">
+            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 lg:w-5/6 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start mt-64" data-aos="flip-left">
               <div className="flex flex-rol justify-center items-center">
-                <h2 className="font-bold text-base md:text-lg lg:text-2xl inline pr-1">Robotic Club</h2>
-                <img src="../assets/robot_club.gif" alt="bachelor" className="inline w-10 h-10">
+                <h2 className="font-bold text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-4xl inline pr-1">Robotic Club</h2>
+                <img src="../assets/robot_club.gif" alt="bachelor" className="inline w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20 2xl:w-24 2xl:h-24">
               </div>
               
               <!-- <div className="flex"></div> -->
-              <div className="flex flex-col font-mono text-sm md:text-sm lg:text-sm xl:text-base 2xl:text-lg justify-start items-start">
+              <div className="flex flex-col font-mono text-sm md:text-base lg:text-lg xl:text-2xl 2xl:text-3xl justify-start items-start">
                 <p className="text-left pt-5 italic">Software Eng. 05/2019 - 12/2020</p>
                 <ul className="list-disc text-left pt-5">
                   <li className="pb-2">Program robot, Control theory</li>
@@ -124,13 +124,13 @@
                 </ul> 
               </div>
             </div>
-            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start mt-64" data-aos="flip-left">
+            <div className="min-w-min flex flex-col border-4 border-fuchsia-600 h-auto w-2/3 lg:w-5/6 bg-gray-50 rounded-2xl shadow-lg lg:px-10 px-5 py-10 justify-start mt-64" data-aos="flip-left">
               <div className="flex flex-rol justify-start items-center">
-                <h2 className="font-bold text-base md:text-lg lg:text-2xl inline pr-1">HG Robotics</h2>
-                <img src="../assets/gundam.gif" alt="bachelor" className="inline w-10 h-10">
+                <h2 className="font-bold text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-4xl inline pr-1">HG Robotics</h2>
+                <img src="../assets/gundam.gif" alt="bachelor" className="inline w-10 h-10 md:w-14 md:h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20 2xl:w-24 2xl:h-24">
               </div>
               <!-- <div className="flex"></div> -->
-              <div className="flex flex-col font-mono text-sm md:text-sm lg:text-sm xl:text-base 2xl:text-lg justify-start items-start">
+              <div className="flex flex-col font-mono text-sm md:text-base lg:text-lg xl:text-2xl 2xl:text-3xl justify-start items-start">
                 <p className="text-left italic">Software Development Eng. <br> 02/2021 - 03/2021</p>
                 <ul className="list-disc text-left pt-5">
                   <li className="pb-2">Computer Vision </li>
@@ -143,9 +143,9 @@
     </div>
     <div class="spacer2 layer5 -mb-1"></div>
     <div className="flex flex-row justify-start w-full pb-10 bg-gray-800 -mt-1 -mb-1">
-        <h2 className="font-bold text-3xl px-5 md:px-44 pt-12 font-mono text-gray-50">Achievement</h2>
+        <h2 className="font-bold text-3xl lg:text-4xl 2xl:text-6xl px-5 md:px-44 pt-12 font-mono text-gray-50">Achievement</h2>
     </div>
-    <div className="w-full font-semibold text-gray-50 bg-gray-800 text-lg font-mono place-items-start px-auto pl-10 md:pl-40 pr-20 pb-16 border-b-2 border-fuchsia-600 flex flex-col justify-start">
+    <div className="w-full text-gray-50 bg-gray-800 text-xl font-mono 2xl:text-3xl xl:text-2xl place-items-start px-auto pl-10 md:pl-40 pr-20 pb-16 border-b-2 border-fuchsia-600 flex flex-col justify-start">
       <ul className="list-disc text-left">
         <li className="pb-2">1st place in International Design Contest Robocon 2021 🥇</li>
         <li className="pb-2">2nd place in Tokyo Tech's Creative Design Competition 2018 🥈</li>
@@ -153,15 +153,15 @@
       </ul>
     </div>
     <div className="flex flex-row justify-start w-full pb-10 bg-white">
-        <h2 className="font-bold text-3xl px-5 md:px-44 pt-12 font-mono">Certificates</h2>
+        <h2 className="font-bold text-3xl lg:text-4xl 2xl:text-6xl px-5 md:px-44 pt-12 font-mono">Certificates</h2>
     </div>
     <div className="w-full font-semibold text-lg font-mono place-items-start px-auto md:pl-40 pr-20 pb-16 border-b-2 border-fuchsia-600 flex flex-col justify-start bg-white">
       <img src="../assets/certificates.png" alt="">
     </div>
     <div className="text-gray-50 bg-gray-800 flex flex-row justify-start w-full pb-10 -mb-1">
-        <h2 className="font-bold text-3xl px-5 md:px-44 pt-12 font-mono">Hobby</h2>
+        <h2 className="font-bold text-3xl lg:text-4xl 2xl:text-6xl px-5 md:px-44 pt-12 font-mono">Hobby</h2>
     </div>
-    <div className="text-gray-50 bg-gray-800 w-full font-semibold text-lg font-mono place-items-start px-auto pl-5 md:pl-40 pr-20 pb-16 grid md:grid-cols-4 grid-cols-2 justify-around">
+    <div className="text-gray-50 bg-gray-800 w-full font-sans text-xl 2xl:text-3xl xl:text-2xl place-items-start px-auto pl-5 md:pl-40 pr-20 pb-16 grid md:grid-cols-4 grid-cols-2 ">
       <p>Novel</p>
       <p>Reading</p>
       <p>Oil Paintings</p> 
@@ -179,6 +179,11 @@ export default {
     AOS.init({
   duration: 1200,
 })
+  },
+  methods:{
+    gotoContact(e) {
+      window.open(e);
+    },
   }
 };
 </script>
