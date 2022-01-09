@@ -9,13 +9,9 @@ npm run build
 # navigate into the build output directory
 cd dist
 
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
-echo "# kornsinanju.github.io" >> README.md
-
-
 # for first push
 # git init
+# echo "# kornsinanju.github.io" >> README.md
 # git add *
 # git commit -m 'deploy'
 # git branch -M main
