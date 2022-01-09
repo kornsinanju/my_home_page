@@ -12,7 +12,7 @@ const Post = () => import("../components/Post.vue");
 const routes = [
   {
     path: "/",
-    name: "Home",
+    redirect:{name: "Intro"},
     component: Intro,
   },
   {
