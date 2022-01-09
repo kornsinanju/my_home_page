@@ -9,6 +9,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "firebase": "^9.6.1",
+    "github-markdown-css": "^5.1.0",
     "marked": "^4.0.7",
     "rive-js": "^0.7.30",
     "vue": "^3.2.6",
