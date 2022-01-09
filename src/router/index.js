@@ -8,6 +8,7 @@ const Intro = () => import("../components/Intro.vue");
 const Blogs = () => import("../components/Blogs.vue");
 const Projects = () => import("../components/Projects.vue");
 const Post = () => import("../components/Post.vue");
+const NoFound = () => import("../components/404.vue");
 
 const routes = [
   {
@@ -34,7 +35,9 @@ const routes = [
     path: '/blogs/:id',
     name: 'Posts',
     component: Post
-  }
+  },
+  { path: '/:pathMatch(.*)*', name: 'not-found', component:NoFound},
+
 ];
 
 const router = createRouter({

@@ -23,6 +23,7 @@ cd dist
 git add *
 git commit -m 'deploy'
 git checkout main
+git pull
 git push
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
